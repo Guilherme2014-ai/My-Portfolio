@@ -2,8 +2,12 @@
   "name": "portifolio",
   "version": "1.0.0",
   "description": "Portifólio",
+  "homepage":"./",
   "main": "./build/index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "webpack serve --open",
+    "build": "node --trace-deprecation node_modules/webpack/bin/webpack.js"
+  },
   "dependencies": {
     "axios": "^0.26.1",
     "react": "^17.0.2",
