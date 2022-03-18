@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+
+.main {
+    margin: 60px;
+}
+
+.about_me {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_area {
+    margin-top: 10px;
+    width: 70%;
+}
+
+.text_area a svg {
+    transition: all ease 0.4s;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin: 0px 7px 0px 0px;
+    font-size: 3pc;
+}
+
+.text_area a svg:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.phrase {
+    font-size: 2pc;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.profile_picture {
+    border-radius: 100%;
+    border: solid 5px #63F2CA;
+    width: 200px;
+    height: 200px;
+    transition: all ease 0.5s;
+}
+
+.profile_picture:hover {
+    transform: scale(1.01);
+}
+
+.guy_coddig_animation_animation {
+    transition: all ease 0.5s;
+    width: 2000px;
+    height: 500px;
+    transform: scale(0.99);
+}
+
+.guy_coddig_animation_animation:hover {
+    transform: scale(1);
+}
