@@ -12,29 +12,6 @@
     justify-content: space-between;
 }
 
-.text_area {
-    margin-top: 10px;
-    width: 70%;
-}
-
-.text_area a svg {
-    transition: all ease 0.4s;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    margin: 0px 7px 0px 0px;
-    font-size: 3pc;
-}
-
-.text_area a svg:hover {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-}
-
-.phrase {
-    font-size: 2pc;
-    font-family: 'Smooch Sans', sans-serif;
-}
-
 .profile_picture {
     border-radius: 100%;
     border: solid 5px #63F2CA;

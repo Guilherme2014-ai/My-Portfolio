@@ -1,0 +1,12 @@
+.text_area a svg {
+    transition: all ease 0.4s;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin: 0px 7px 0px 0px;
+    font-size: 3pc;
+}
+
+.text_area a svg:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
