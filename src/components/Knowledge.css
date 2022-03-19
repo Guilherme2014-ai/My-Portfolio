@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+.knowledge {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.knowledge_area {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.knowledge h1 {
+    color: white;
+    font-size: 3pc;
+}
+
+.knowledge_box {
+    color: white;
+    text-align: center;
+}
+
+.knowledge_box div img {
+    transition: all ease 0.4s;
+    transform: scale(0.9);
+}
+
+.knowledge_box div img:hover {
+    transform: scale(1);
+}

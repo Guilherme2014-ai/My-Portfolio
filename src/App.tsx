@@ -1,8 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import axios from "axios";
 import Lottie from "lottie-web";
-import "./App.css";
+
 import { TextAreaComponent } from "./components/TextArea";
+import { KnowledgeComponent } from "./components/Knowledge";
+
+import "./App.css";
 
 const App: React.FC = () => {
   const boyCoddingAnimation = useRef(null);
@@ -65,10 +68,7 @@ const App: React.FC = () => {
           id="guy_coddig_animation_animation"
         ></div>
       </div>
-      <br />
-      <div>
-        <h1>knowledge</h1>
-      </div>
+      <KnowledgeComponent className="knowledge" />
     </div>
   );
 };
