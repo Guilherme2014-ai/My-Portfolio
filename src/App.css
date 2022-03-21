@@ -54,3 +54,12 @@ h1 {
     transform: scale(1);
 }
 
+@media only screen and (max-width: 620px) {
+    .guy_coddig_animation_animation {
+        width: 300px;
+    }
+    .projects {
+        margin-top: 0px;
+        transform: scale(0.9);
+    }
+}
