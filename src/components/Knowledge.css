@@ -34,3 +34,14 @@
 .knowledge_box div img:hover {
     transform: scale(1);
 }
+
+@media only screen and (max-width: 600px) {
+    .knowledge_area {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .knowledge_box {
+        margin-top: 40px;
+    }
+}
