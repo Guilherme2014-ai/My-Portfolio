@@ -11,3 +11,36 @@
 body {
     background-color: #191B1A;
 }
+
+.content {
+    transition: all ease 0.5s;
+    width: 600px;
+}
+
+.main {
+    transition: all ease 0.5s;
+}
+
+.about_me {
+    transition: all ease 0.5s;
+}
+
+@media only screen and (max-width: 1200px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about_me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

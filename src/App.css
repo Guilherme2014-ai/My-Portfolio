@@ -45,7 +45,7 @@ h1 {
 
 .guy_coddig_animation_animation {
     transition: all ease 0.5s;
-    width: 2000px;
+    width: 500px;
     height: 500px;
     transform: scale(0.99);
 }
@@ -53,3 +53,4 @@ h1 {
 .guy_coddig_animation_animation:hover {
     transform: scale(1);
 }
+
