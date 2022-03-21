@@ -7,3 +7,9 @@
     font-size: 2pc;
     font-family: 'Smooch Sans', sans-serif;
 }
+
+@media only screen and (max-width: 640px) {
+    .text_area {
+        width: 400px;
+    }
+}
