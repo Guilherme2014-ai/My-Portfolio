@@ -24,16 +24,27 @@ const ProjectsComponent = ({
   technical_specifications: string[];
   children: string;
 }) => {
+  function projecAreaDirectionHandler() {
+    const windowWidth = window.innerWidth;
+
+    console.log(windowWidth);
+
+    if (windowWidth < 1089) return "column";
+    return inverted ? "row-reverse" : "row";
+  }
+
   return (
     <div
       className={className}
       style={{
-        flexDirection: inverted ? "row-reverse" : "row",
+        flexDirection: projecAreaDirectionHandler(),
       }}
     >
-      <a href={`${production_link || repository_link}`}>
-        <img src={image_link} alt="project_image" />
-      </a>
+      <div className="image_area">
+        <a href={`${production_link || repository_link}`}>
+          <img src={image_link} alt="project_image" />
+        </a>
+      </div>
       <div>
         <h2>{title}</h2>
         <ul>

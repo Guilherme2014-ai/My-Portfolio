@@ -36,6 +36,8 @@ const App: React.FC = () => {
     animationHandler();
   });
 
+  // console.log(window.innerWidth);
+
   return (
     <div className="main">
       <div id="about_me" className="about_me">
@@ -117,7 +119,7 @@ const App: React.FC = () => {
         </ProjectsComponent>
         <h2 className="project_subtitle">Front-end Projects</h2>
         <ProjectsComponent
-          title="E-commerce"
+          title="Netflix Clone"
           image_link="https://t2.tudocdn.net/178296?w=660&h=660"
           repository_link="https://github.com/Guilherme2014-ai/Netflix_Clone"
           production_link="https://guilherme2014-ai.github.io/Netflix_Clone/"
