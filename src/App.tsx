@@ -82,12 +82,12 @@ const App: React.FC = () => {
           inverted={false}
           className="project_area"
           technical_specifications={[
-            "Lang: TypeScript",
+            "Lang: TypeScript / Node",
             "Database: MySQL",
             "ORM: TypeORM",
             "Framework: React",
             "Framework(Back-end): Express",
-            "Background Job: Bull",
+            "Background Job: Bull / Redis",
           ]}
         >
           The APP is based on Users, on which they can make comments, change
@@ -105,7 +105,7 @@ const App: React.FC = () => {
           inverted={true}
           className="project_area"
           technical_specifications={[
-            "Lang: JavaScript",
+            "Lang: JavaScript / Node",
             "Database: MySQL",
             "Query Builder: KNEX",
             "Template String: EJS",
@@ -127,8 +127,30 @@ const App: React.FC = () => {
           className="project_area"
           technical_specifications={["Lang: JavaScript", "Framework: React"]}
         >
-          This project is just for porpouse study, where I made a Netflix clone,
-          using react. This app is fully responsible and real-time.
+          This project is just for studying porpouse, where I made a Netflix
+          clone, using react. This app is fully responsible and real-time.
+        </ProjectsComponent>
+        <h2 className="project_subtitle">Back-end Projects</h2>
+        <ProjectsComponent
+          title="Be Nice API"
+          image_link="https://cdn.discordapp.com/attachments/857701858655076402/955270591198396426/unknown.png"
+          repository_link="https://github.com/Guilherme2014-ai/Be-Nice-Project"
+          inverted={true}
+          className="project_area"
+          technical_specifications={[
+            "Lang: TypeScript / Node",
+            "Framework: Express",
+            "Tester: Jest",
+            "Database: MySQL",
+            "Background Job: Bull / Redis",
+          ]}
+        >
+          Well, this API can create Users who can relate to each other, an
+          example of this dynamic is Facebook itself, where Users can make
+          friends with other Users, but the API doesn't only allow that, it also
+          allows a User to make a comment to another - hence the name "Be Nice"
+          - thus generating a dynamic system of Network and Comments exchange
+          between Users.
         </ProjectsComponent>
       </div>
     </div>

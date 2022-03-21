@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-.proje
-
 .content_text {
     width: 620px;
 }
@@ -15,6 +13,17 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    border-radius: 20px;
+    transition: all ease 0.5s;
+    padding: 10px;
+}
+
+.project_area:hover {
+    background-color: rgb(15, 15, 15);
+}
+
+.content_text {
+    width: 700px;
 }
 
 .project_area img {
@@ -25,6 +34,10 @@
 
 .project_area div h2,ul,p {
     margin-top: 20px;
+}
+
+.project_subtitle {
+    font-size: 2pc;
 }
 
 @media only screen and (max-width: 1090px) {
