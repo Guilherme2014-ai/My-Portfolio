@@ -4,6 +4,7 @@ import Lottie from "lottie-web";
 
 import { TextAreaComponent } from "./components/TextArea";
 import { KnowledgeComponent } from "./components/Knowledge";
+import { ProjectsComponent } from "./components/Projects";
 
 import "./App.css";
 
@@ -69,8 +70,70 @@ const App: React.FC = () => {
         ></div>
       </div>
       <KnowledgeComponent className="knowledge" />
+      <div className="projects">
+        <h1>Projects</h1>
+        <h2 className="project_subtitle">FullStack Projects</h2>
+        <ProjectsComponent
+          title="Be Nice"
+          image_link="https://cdn.discordapp.com/attachments/857701858655076402/955270591198396426/unknown.png"
+          repository_link="https://github.com/Guilherme2014-ai/be-nice-interface-react"
+          inverted={false}
+          className="project_area"
+          technical_specifications={[
+            "Lang: TypeScript",
+            "Database: MySQL",
+            "ORM: TypeORM",
+            "Framework: React",
+            "Framework(Back-end): Express",
+            "Background Job: Bull",
+          ]}
+        >
+          The APP is based on Users, on which they can make comments, change
+          photo, change profile phrase, accept/decline/view/send friend
+          requests... Given this it is logical that you need a screen
+          registration and login. The Be Nice registration system has a email
+          confirmation logic, where the user needs to confirm email, otherwise
+          you will not have full access to the features of the APPLICATION.
+          Sending email is done using Nodemailer.
+        </ProjectsComponent>
+        <ProjectsComponent
+          title="E-commerce"
+          image_link="https://freevector-images.s3.amazonaws.com/uploads/vector/preview/36682/36682.png"
+          repository_link="https://github.com/Guilherme2014-ai/E-Commerce"
+          inverted={true}
+          className="project_area"
+          technical_specifications={[
+            "Lang: JavaScript",
+            "Database: MySQL",
+            "Query Builder: KNEX",
+            "Template String: EJS",
+            "Framework(Back-end): Express",
+            "Web Socket: Socket IO",
+          ]}
+        >
+          This E-commerce is a real-time aplication, where the client can buy
+          new clothes and the host user can add, delete, modify clothes, manage
+          the clothes transport data, and see in real-time who's buying clothes.
+        </ProjectsComponent>
+        <h2 className="project_subtitle">Front-end Projects</h2>
+        <ProjectsComponent
+          title="E-commerce"
+          image_link="https://t2.tudocdn.net/178296?w=660&h=660"
+          repository_link="https://github.com/Guilherme2014-ai/Netflix_Clone"
+          production_link="https://guilherme2014-ai.github.io/Netflix_Clone/"
+          inverted={false}
+          className="project_area"
+          technical_specifications={["Lang: JavaScript", "Framework: React"]}
+        >
+          This project is just for porpouse study, where I made a Netflix clone,
+          using react. This app is fully responsible and real-time.
+        </ProjectsComponent>
+      </div>
     </div>
   );
 };
 
 export { App };
+
+// h1 Projects
+//
